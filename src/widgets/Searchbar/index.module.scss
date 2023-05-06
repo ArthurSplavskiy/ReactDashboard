@@ -1,0 +1,30 @@
+.Search {
+	width: 216px;
+	height: 38px;
+	background: #f9fbff;
+	border-radius: 10px;
+	position: relative;
+
+	@media (max-width: 768px) {
+		width: 100%;
+	}
+
+	svg {
+		position: absolute;
+		top: 7px;
+		left: 7px;
+	}
+
+	input {
+		position: absolute;
+		left: 40px;
+		right: 10px;
+		top: 0;
+		bottom: 0;
+		background: none;
+		border: none;
+		&:focus {
+			outline: none;
+		}
+	}
+}
